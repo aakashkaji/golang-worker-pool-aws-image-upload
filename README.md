@@ -1,0 +1,1 @@
+We have designed a worker pool in Go to fetch image or video URL data from MongoDB and upload it to AWS S3. This script will help you upload 50k items in less than a minute, depending on how many workers you assign to the buffered channel.
